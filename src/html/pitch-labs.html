@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<!-- Head -->
+{{> (config config.partials.head) title=config.defaultPageTitle }}
+
+<body class="{{ config.classes.body }}">
+
+    <!-- Locomotive Scroll Container-->
+    <div data-scroll-container>
+        <!-- Navbar -->
+        {{> (config config.partials.navbar)
+        configClassList=config.classes.navbar
+        classList="" }}
+        <!-- / Navbar-->
+
+        <!-- Main Section-->
+        <section class="py-3 {{ config.classes.content }}" data-scroll-section>
+            <!-- Page Content Goes Here -->
+
+            <!-- Portfolio Title-->
+            <div class="container">
+                <h1 class="display-3 mb-2" data-scroll data-scroll-speed="2" data-scroll-position="top">Pitch Labs</h1>
+                <p class="subtitle-xs" data-scroll data-scroll-speed="4" data-scroll-position="top"><span class="me-2">Junior Moderator</span> · <span class="ms-2"></span></p>
+                <p class="lead" data-scroll data-scroll-speed="6" data-scroll-position="top">Preparing the community for launch.</p>
+            </div>
+            <!-- Portfolio Title-->
+
+            <!-- Main Portfolio Image-->
+            <div class="my-9 bg-img-cover fade-in-up" data-scroll data-scroll-position="top" style="background-image: url({{webRoot}}/assets/images/project-1.jpg)"></div>
+            <!-- / Main Portfolio Image-->
+
+
+            <!-- Portfolio Intro-->
+            <div class="container">
+                <div class="row gx-8 gy-5" data-scroll
+                data-scroll-position="bottom">
+                    <div class="col-12 col-lg-4 fade-in-left" data-scroll data-scroll-position="top">
+                        <p class="m-0 subtitle-sm">The Organization</p>
+                    </div>
+                    <div class="col-12 col-lg-8 fade-in-right" data-scroll data-scroll-position="top">
+                        <h2 class="lead fw-bolder mb-4">Community Folks</h2>
+                        <p>Pitch Labs is a student lead community. A place to find, refine and grow ideas into larger scale business..</p>
+                    </div>
+                    <div class="col-12 col-lg-4 fade-in-left" data-scroll data-scroll-position="top">
+                        <p class="m-0 subtitle-sm">The Project</p>
+                    </div>
+                    <div class="col-12 col-lg-8 fade-in-right" data-scroll data-scroll-position="top">
+                        <p>I have joined Pitch Labs as a freelance Junior Moderator in August 2023. My job is to help them 
+                            build a strategy for,
+                            <ul>
+                                <li>community launch</li>
+                                <li>Content</li>
+                                <li>Discord server structure</li>
+                                <li>Member onboarding journey</li>
+                                <li>Member activation journey</li>
+                                <li>Events</li>
+                            </ul>
+                        </p>
+                        <p>Currently I am reviewing the Discord server they have built and providing ways to improve it for future members.</p>
+                        <!-- <a class="link-body" href="#">View Website <i class="ri-external-link-line ms-2"></i></a> --> 
+                    </div>
+                </div>
+            </div>
+            <!-- / Portfolio Intro-->
+
+            <!-- Portfolio Image-->
+            <div class="my-9 bg-img-cover fade-in-up" data-scroll data-scroll-position="bottom" style="background-image: url({{webRoot}}/assets/images/project-2.jpg)"></div>
+            <!-- / Portfolio Image-->
+
+            <!-- Project Summary-->
+            <div class="container">
+                <div class="row gx-8 gy-5">
+                    <div class="col-12 col-lg-4 fade-in-left" data-scroll data-scroll-position="bottom">
+                        <p class="m-0 subtitle-sm">Assests I Built</p>
+                    </div>
+                    <div class="col-12 col-lg-8 fade-in-right" data-scroll data-scroll-position="bottom">
+                        <ul>
+                            <li class="mb-2">Coming soon...</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-lg-4 fade-in-left" data-scroll data-scroll-position="bottom">
+                        <p class="m-0 subtitle-sm">My Role</p>
+                    </div>
+                    <div class="col-12 col-lg-8 fade-in-right" data-scroll data-scroll-position="bottom">
+                        <ul>
+                            <li class="mb-2">Discord Server Setup</li>
+                            <li class="mb-2">Community Launch</li>
+                            <li class="mb-2">Community Growth</li>
+                            <li class="mb-2">Content Strategy & Writing</li>
+                            <li class="mb-2">Connecting Members</li>
+                            <li class="mb-2">Event Strategy</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Project Summary-->
+
+            <!-- Client Testimonial-->
+            <div class="container py-10">
+                <div class="row gx-8 align-items-center">
+                    <div 
+                        class="col-12 col-md-6 fade-in-left"
+                        data-scroll data-scroll-position="bottom"
+                    >
+                        <span class="d-block text-primary lh-1 display-1 mb-5 mb-md-3 mb-lg-0">"</span>
+                        <p class="fs-4 mt-n6 mb-5">
+                            Jenny has excellent software intuition and was able to quickly understand our business
+                            requirements. She did a fantastic job with the redesign of our website and we couldn't be
+                            happier!
+                        </p>
+                        <p class="lead fw-bolder mb-1">John Bridges</p>
+                        <p class="text-muted">CEO, Heritage Furniture</p>
+                    </div>
+                    <div 
+                        class="col-12 col-md-6 fade-in-right"
+                        data-scroll data-scroll-position="bottom"
+                    >
+                        <picture>
+                            <img class="img-fluid" src="{{webRoot}}/assets/images/project-3.jpg"
+                                alt="{{ config.defaultImgAlt }}">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+            <!-- Client Testimonial-->
+
+
+            <!-- /Page Content -->
+        </section>
+        <!-- / Main Section-->
+
+        <!-- Footer -->
+        {{> (config config.partials.footer)
+            configClassList=config.classes.footer
+            classList=""
+            show-cta="true"
+    }}
+        <!-- / Footer-->
+    </div>
+    <!-- /Locomotive Scroll Container-->
+
+    <!-- Theme JS -->
+    {{> footer/scripts }}
+
+</body>
+
+</html>
