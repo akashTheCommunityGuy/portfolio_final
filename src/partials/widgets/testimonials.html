@@ -4,9 +4,9 @@
 <body class="{{ config.classes.body }}">
 
   <!-- Locomotive Scroll Container-->
-  <div data-scroll-container>
+  <div>
     <!-- Main Section-->
-    <section class="container py-3 {{ config.classes.content }}" data-scroll-section>
+    <section class="py-3 {{ config.classes.content }}">
       <!-- Page Content Goes Here -->
 
       <!-- <h1 class="display-3 mb-5" data-scroll data-scroll-speed="6" data-scroll-position="top">My Blogs</h1> -->
@@ -17,20 +17,7 @@
 
       <!-- /Page Content -->
     </section>
-    <!-- / Main Section-->
-
-    <!-- Footer -->
-    {{> (config config.partials.footer)
-    configClassList=config.classes.footer
-    classList=""
-    }}
-    <!-- / Footer-->
   </div>
-  <!-- /Locomotive Scroll Container-->
-
-  <!-- Theme JS -->
-  {{> footer/scripts }}
-
 </body>
 
 </html>
