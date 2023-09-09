@@ -2,21 +2,28 @@
 {{> (config config.partials.head) title=config.defaultPageTitle }}
 
 <body class="{{ config.classes.body }}">
+  <div class="py-lg-6">
+    {{>
+    content/subtitle
+    title="My Blogs"
+    }}
+    <!-- Locomotive Scroll Container-->
+    <div>
+      <!-- Main Section-->
+      <section class="py-3 {{ config.classes.content }}">
+        <!-- Page Content Goes Here -->
 
-  <!-- Locomotive Scroll Container-->
-  <div>
-    <!-- Main Section-->
-    <section class="py-3 {{ config.classes.content }}">
-      <!-- Page Content Goes Here -->
+        <!-- <h1 class="display-3 mb-5" data-scroll data-scroll-speed="6" data-scroll-position="top">My Blogs</h1> -->
+        <p>If you would like to read more about my insights in the community industry. Click the button below.</p>
+        <br />
+        <a href="https://akash-writes.medium.com/" target="_blank" class="btn btn-primary">My Blogs</a>
+        <a href="https://communityfolks.substack.com/" target="_blank" class="btn btn-primary">Newsletter</a>
+        <!-- <button>My Blogs</button>
+        <button>Newsletter</button> -->
 
-      <!-- <h1 class="display-3 mb-5" data-scroll data-scroll-speed="6" data-scroll-position="top">My Blogs</h1> -->
-      <p>If you would like to read more about my insights in the community industry. Click the button below.</p>
-      <br />
-      <button>My Blogs</button>
-      <button>Newsletter</button>
-
-      <!-- /Page Content -->
-    </section>
+        <!-- /Page Content -->
+      </section>
+    </div>
   </div>
 </body>
 
