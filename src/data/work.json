@@ -30,13 +30,6 @@
             "link":"web3.html"
         },
         {
-            "img": "{{webRoot}}/assets/images/project-listing-5.jpg",
-            "title": "Electronic Vehicle and Cycling Enthusisats",
-            "description": "A Community for working professionals who are also into fitness and cycling.",
-            "category": "<span class='me-2'>B2C Community</span> &middot; <span class='ms-2'>Facebook</span>",
-            "link":"ev-cycling.html"
-        },
-        {
             "img": "{{webRoot}}/assets/images/project-listing-6.jpg",
             "title": "Led By Community",
             "description": "A community for helping community builders across the globe connect and grow together.",
