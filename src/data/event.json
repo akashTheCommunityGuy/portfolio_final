@@ -24,11 +24,6 @@
             "title":"Community Club APAC events",
             "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
             "link":"community3point0.html"
-        },
-        {
-            "title":"Community 3.0",
-            "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
-            "link":"community3point0.html"
         }
     ]
 }
