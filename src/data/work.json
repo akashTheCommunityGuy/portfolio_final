@@ -11,7 +11,7 @@
         {
             "img": "{{webRoot}}/assets/images/project-listing-2.jpg",
             "title": "Travander",
-            "description": "0",
+            "description": "A community of experienced travellers from India",
             "category": "<span class='me-2'>B2C Community</span> &middot; <span class='ms-2'>BuildOnScenes</span>",
             "link":"travander.html"
         },

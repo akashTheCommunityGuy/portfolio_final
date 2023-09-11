@@ -1,24 +1,34 @@
 {
     "entries": [
         {
-            "title":"COC event",
+            "title":"Chronicles of Community Builders",
             "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
-            "link":"COCbuilders.html"
+            "link":"cocb.html"
         },
         {
-            "title":"COC event",
+            "title":"When Retro Meets Metro",
             "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
-            "link":""
+            "link":"wrmm.html"
         },
         {
-            "title":"COC event",
+            "title":"Demystifying Web3 Communities",
             "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
-            "link":""
+            "link":"demystifying_web3.html"
         },
         {
-            "title":"COC event",
+            "title":"Community 3.0",
             "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
-            "link":""
+            "link":"community3point0.html"
+        }
+        {
+            "title":"Community Club APAC events",
+            "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
+            "link":"community3point0.html"
+        }
+        {
+            "title":"Community 3.0",
+            "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
+            "link":"community3point0.html"
         }
     ]
 }
