@@ -18,12 +18,12 @@
         <section class="container py-3 {{ config.classes.content }}" data-scroll-section>
             <!-- Page Content Goes Here -->
 
-            <h1 class="display-3 mb-5"  data-scroll data-scroll-speed="6" data-scroll-position="top">My Work</h1>
+            <h1 class="display-3 mb-5"  data-scroll data-scroll-speed="6" data-scroll-position="top">Events</h1>
 
-            {{#if (config work)}}
+            {{#if (config event)}}
             <div class="row g-8" data-scroll
             data-scroll-position="bottom" >
-                {{#each work.entries}}
+                {{#each event.entries}}
                     <!-- Single Work-->
                     <div 
                     data-scroll
@@ -35,15 +35,12 @@
                     {{/isEven}}   
                     >
                         <div class="position-relative">
-                            <a class="link-cover" href="{{webRoot}}/work-single.html">
+                            <a class="link-cover" href="{{webRoot}}/{{{ link }}}">
                                 <picture>
                                     <img class="img-fluid" src="{{ img }}" alt="{{ config.defaultImgAlt }}">
                                 </picture>
                             </a>
-                            <p class="subtitle-xs mb-0 mt-4">{{{ category }}}</p>
                             <p class="fw-bolder lead mb-3 mt-2">{{ title }}</p>
-                            <p class="small text-muted mb-2">{{ description }}</p>
-                     <!--        <a class="link-body" href="{{webRoot}}/work-single.html">View Project</a> -->
                             <a class="link-body" href="{{webRoot}}/{{{ link }}}">View Project</a>
                         </div>
                     </div>

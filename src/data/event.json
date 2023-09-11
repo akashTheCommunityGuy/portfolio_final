@@ -1,0 +1,24 @@
+{
+    "entries": [
+        {
+            "title":"COC event",
+            "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
+            "link":"COCbuilders.html"
+        },
+        {
+            "title":"COC event",
+            "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
+            "link":""
+        },
+        {
+            "title":"COC event",
+            "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
+            "link":""
+        },
+        {
+            "title":"COC event",
+            "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
+            "link":""
+        }
+    ]
+}
