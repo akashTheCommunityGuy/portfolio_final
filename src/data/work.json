@@ -46,7 +46,7 @@
         {
             "img": "{{webRoot}}/assets/images/project-listing-8.jpg",
             "title": "Stronghold",
-            "description": "One of the biggest community of World of Warcraft gamers spread across the globe, levelling up, raiding and having fun together.",
+            "description": "A community of World of Warcraft gamers spread across the globe, levelling up, raiding and having fun together.",
             "category": "<span class='me-2'>Gaming</span> &middot; <span class='ms-2'>Discord</span>",
             "link":"stronghold.html"
         }
