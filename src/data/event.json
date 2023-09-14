@@ -2,28 +2,29 @@
     "entries": [
         {
             "title":"Chronicles of Community Builders",
-            "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
-            "link":"cocb.html"
+            "img": "{{webRoot}}/assets/images/ccb_image-1.jpg",
+            "link":"cocb.html",
+            "target":"_blank"
         },
         {
             "title":"When Retro Meets Metro",
-            "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
+            "img": "{{webRoot}}/assets/images/wrmm_image-1.jpg",
             "link":"wrmm.html"
         },
         {
             "title":"Demystifying Web3 Communities",
-            "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
+            "img": "{{webRoot}}/assets/images/dwc_image-1.jpg",
             "link":"demystifying_web3.html"
         },
         {
             "title":"Community 3.0",
-            "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
+            "img": "{{webRoot}}/assets/images/c30_image-1.jpg",
             "link":"community3point0.html"
         },
         {
             "title":"Community Club APAC events",
-            "img": "{{webRoot}}/assets/images/project-listing-1.jpg",
-            "link":"community3point0.html"
+            "img": "{{webRoot}}/assets/images/cca_image-1.jpg",
+            "link":"cc_apac.html"
         }
     ]
 }
