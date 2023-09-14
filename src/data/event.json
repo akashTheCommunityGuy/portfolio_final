@@ -9,22 +9,27 @@
         {
             "title":"When Retro Meets Metro",
             "img": "{{webRoot}}/assets/images/wrmm_image-1.jpg",
-            "link":"wrmm.html"
+            "link":"wrmm.html",
+            "target":"_blank"
+
         },
         {
             "title":"Demystifying Web3 Communities",
             "img": "{{webRoot}}/assets/images/dwc_image-1.jpg",
-            "link":"demystifying_web3.html"
+            "link":"demystifying_web3.html",
+            "target":"_blank"
         },
         {
             "title":"Community 3.0",
             "img": "{{webRoot}}/assets/images/c30_image-1.jpg",
-            "link":"community3point0.html"
+            "link":"community3point0.html",
+            "target":"_blank"
         },
         {
             "title":"Community Club APAC events",
             "img": "{{webRoot}}/assets/images/cca_image-1.jpg",
-            "link":"cc_apac.html"
+            "link":"cc_apac.html",
+            "target":"_blank"
         }
     ]
 }
